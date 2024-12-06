@@ -1,0 +1,21 @@
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        background: "#f1f3f4",
+        secondary: "#f5f5f5",
+        headerColor: "#5f6368",
+        textColor: "#3c4043",
+      },
+
+      colors: {
+        background: "#f1f3f4",
+        secondaryBackground: "#f5f5f5",
+        headerColor: "#5f6368",
+        textColor: "#3c4043",
+      },
+    },
+  },
+  plugins: [],
+};
